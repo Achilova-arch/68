@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: aquamarine;
+}
+
+
+.box{
+    width: 450px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: 100px auto;
+}
+h2{
+    font-size: 28px;
+    margin: 15px 0;
+}
+input{
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+select{
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+}
+#btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+}
+
+.ota img{
+    width: 20px;
+}

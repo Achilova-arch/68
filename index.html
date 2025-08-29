@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="box">
+        <h2>Currency converter</h2>
+        <input type="number" placeholder="Enter amount.." id="input">
+        <div class="ota">
+            <div class="right">
+                <p>From</p>
+                <div class="from-ota">
+                    <img src="https://flagcdn.com/16x12/us.png" alt="sdf" id="from-img">
+                    <select name="from" id="from-select">
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+            </div>
+            <div class="left">
+                <p>To</p>
+                <div class="to-ota">
+                    <img src="https://flagcdn.com/16x12/uz.png" alt="sdf" id="to-img">
+                    <select name="to" id="to-select">
+                        <option value="UZS">UZS</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+        <h2 id="result">Result: </h2>
+        <button id="btn">Get Exchange rate</button>
+    </div>
+    
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
